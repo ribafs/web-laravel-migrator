@@ -26,3 +26,24 @@ To change the route path you can change the `route` key in migrator config.
 And, with `middleware` key you can set your middleware to authenticate your user.
 
 **If you don't need to authenticate users to access migrator you can set the value to `web`.**
+
+## Install
+```
+composer require laravel/breeze --dev
+php artisan breeze:install
+```
+## Create e configure database
+
+nano .env
+
+## Try
+
+php artisan serve
+
+http://localhost:8000/register
+
+Create a user and access
+
+http://localhost:8000/migrator
+
+
